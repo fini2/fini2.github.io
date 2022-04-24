@@ -54,10 +54,10 @@ const SidebarNav = props => {
           href="/"
           className={classes.listItemLink}
         >
-          Home
+          Our Team
         </Typography>
       </ListItem>
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <Typography
           variant="h6"
           color="primary"
@@ -68,7 +68,7 @@ const SidebarNav = props => {
           Team
         </Typography>
       </ListItem>
-      {/* <ListItem className={classes.listItem}>
+      <ListItem className={classes.listItem}>
         <Button
           size="large"
           variant="contained"

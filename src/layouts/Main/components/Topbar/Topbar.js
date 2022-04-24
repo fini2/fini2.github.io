@@ -91,10 +91,10 @@ const Topbar = props => {
               component="a"
               href="/"
             >
-              Home
+              Our Team
             </Typography>
           </ListItem>
-          <ListItem className={classes.listItem}>
+          {/* <ListItem className={classes.listItem}>
             <Typography
               variant="body1"
               color="textSecondary"
@@ -105,7 +105,7 @@ const Topbar = props => {
               Team
             </Typography>
           </ListItem>
-          {/* <ListItem className={classes.listItem}>
+          <ListItem className={classes.listItem}>
             <Button
               size="large"
               variant="contained"
