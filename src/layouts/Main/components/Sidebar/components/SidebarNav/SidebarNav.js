@@ -51,7 +51,7 @@ const SidebarNav = props => {
           variant="h6"
           color="primary"
           component="a"
-          href="/home"
+          href="/"
           className={classes.listItemLink}
         >
           Home
@@ -62,24 +62,13 @@ const SidebarNav = props => {
           variant="h6"
           color="primary"
           component="a"
-          href="/signup-simple"
+          href="/team"
           className={classes.listItemLink}
         >
-          Sign up
+          Team
         </Typography>
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Typography
-          variant="h6"
-          color="primary"
-          component="a"
-          href="/not-found"
-          className={classes.listItemLink}
-        >
-          Error page
-        </Typography>
-      </ListItem>
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <Button
           size="large"
           variant="contained"
@@ -91,7 +80,7 @@ const SidebarNav = props => {
         >
           Upgrade Now
         </Button>
-      </ListItem>
+      </ListItem> */}
     </List>
   );
 };

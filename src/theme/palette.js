@@ -10,9 +10,9 @@ const palette = {
     },
     "type": "light",
     "primary": {
-      "main": "#1976d2",
-      "light": "rgb(71, 145, 219)",
-      "dark": "rgb(17, 82, 147)",
+      "main": "#4daaa7",
+      "light": "rgb(95, 199, 196)",
+      "dark": "rgb(41, 158, 155)",
       "contrastText": "#fff"
     },
     "secondary": {
@@ -75,7 +75,7 @@ const palette = {
       "default": "#fff",
       "level2": "#f5f5f5",
       "level1": "#fff",
-      "footer": "#1b1642",
+      "footer": "#333333",
     },
     "action": {
       "active": "rgba(0, 0, 0, 0.54)",

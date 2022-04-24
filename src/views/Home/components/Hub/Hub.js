@@ -43,7 +43,7 @@ const Features = props => {
           data-aos="fade-up"
         >
           <Image
-            src="/images/illustrations/dashboard-screenshot1.jpg"
+            src="/images/illustrations/bgimg3.jpeg"
             alt="..."
             className={classes.coverImage}
             data-aos="flip-left"
@@ -65,14 +65,14 @@ const Features = props => {
               <SectionHeader
                 title={
                   <span>
-                    Use flexible components.
+                    We work on
                     <br />
                     <Typography component="span" variant="inherit" color="primary">
-                      to build an app quickly.
+                      all latest technologies.
                     </Typography>
                   </span>
                 }
-                subtitle="theFront styles and extends Material-UI components, but also included brand new landing page focused components."
+                subtitle="Looking for a team to work on your business applications? We have the expertise to develop your mobile or web application."
                 align="left"
                 fadeUp
                 disableGutter
@@ -83,18 +83,18 @@ const Features = props => {
               <div className={classes.placementGrid}>
                 <div>
                   <CountUpNumber
-                    end={400}
-                    label="Components"
-                    textColor="primary"
-                    suffix="+"
-                  />
-                </div>
-                <div className={classes.placementGridItemMiddle}>
-                  <CountUpNumber
                     end={100}
                     label="Satisfaction"
                     textColor="primary"
                     suffix="%"
+                  />
+                </div>
+                {/* <div className={classes.placementGridItemMiddle}>
+                  <CountUpNumber
+                    end={400}
+                    label="Components"
+                    textColor="primary"
+                    suffix="+"
                   />
                 </div>
                 <div>
@@ -103,7 +103,7 @@ const Features = props => {
                     label="Review Score"
                     textColor="primary"
                   />
-                </div>
+                </div> */}
               </div>
             </Grid>
           </Grid>

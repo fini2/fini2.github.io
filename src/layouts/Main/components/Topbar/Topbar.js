@@ -74,7 +74,7 @@ const Topbar = props => {
         <a href="/" title="thefront">
           <Image
             className={classes.logoImage}
-            src="/images/logos/logo.svg"
+            src="/images/logos/fini2.svg"
             alt="thefront"
             lazy={false}
           />
@@ -89,7 +89,7 @@ const Topbar = props => {
               color="textSecondary"
               className={classes.listItemText}
               component="a"
-              href="/home"
+              href="/"
             >
               Home
             </Typography>
@@ -100,23 +100,12 @@ const Topbar = props => {
               color="textSecondary"
               className={classes.listItemText}
               component="a"
-              href="/signup-simple"
+              href="/team"
             >
-              Sign up
+              Team
             </Typography>
           </ListItem>
-          <ListItem className={classes.listItem}>
-            <Typography
-              variant="body1"
-              color="textSecondary"
-              className={classes.listItemText}
-              component="a"
-              href="/not-found"
-            >
-              Error Page
-            </Typography>
-          </ListItem>
-          <ListItem className={classes.listItem}>
+          {/* <ListItem className={classes.listItem}>
             <Button
               size="large"
               variant="contained"
@@ -128,7 +117,7 @@ const Topbar = props => {
             >
               Full Product
             </Button>
-          </ListItem>
+          </ListItem> */}
         </List>
       </Hidden>
       <Hidden mdUp>

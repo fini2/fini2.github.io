@@ -46,7 +46,7 @@ const Home = () => {
           <Hub />
         </Section>
       </div>
-      <Section>
+      {/* <Section>
         <Partners data={integrations} />
       </Section>
       <SectionAlternate>
@@ -55,7 +55,7 @@ const Home = () => {
       <Divider />
       <SectionAlternate innerNarrowed>
         <Pricings />
-      </SectionAlternate>
+      </SectionAlternate> */}
       <Divider />
     </div>
   );

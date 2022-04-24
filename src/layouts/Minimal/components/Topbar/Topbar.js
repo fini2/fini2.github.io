@@ -43,7 +43,7 @@ const Topbar = props => {
         <a href="/" title="thefront">
           <Image
             className={classes.logoImage}
-            src="/images/logos/logo.svg"
+            src="/images/logos/fini2.svg"
             alt="thefront"
             lazy={false}
           />

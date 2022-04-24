@@ -46,20 +46,22 @@ const Hero = props => {
           <SectionHeader
             title={
               <span>
-                Beautiful data representation
+                Imagine.
                 <br />
                 <Typography component="span" variant="inherit" color="primary">
-                  built with theFront.
+                  Nurture.
                 </Typography>
+                <br />
+                Implement.
               </span>
             }
-            subtitle="World developers use our theFront theme to build their internal tools and client admin applications. Save yourself time and money."
+            subtitle="You have a great idea in mind and want to grow? We will help you scale up your business with our expertise."
             ctaGroup={[
               <Button variant="contained" color="primary" size="large">
-                Start now
+                Contact Us
               </Button>,
               <Button variant="outlined" color="primary" size="large">
-                Learn more
+                Our Team
               </Button>,
             ]}
             align="left"
@@ -77,7 +79,7 @@ const Hero = props => {
           data-aos={'fade-up'}
         >
           <Image
-            src="/images/illustrations/dashboard-screenshot.jpg"
+            src="/images/illustrations/bgimg.png"
             alt="TheFront Company"
             className={classes.image}
             data-aos="flip-left"
